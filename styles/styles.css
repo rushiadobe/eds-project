@@ -264,6 +264,8 @@ main .section.eds-container-block {
   margin: 0;
   padding: 40px 0;
 }
+
+/* section homepage block */
 main .section.homepage-section {
   color: black;
   background-color: var(--light-gray);
