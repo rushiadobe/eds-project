@@ -122,6 +122,7 @@ main .form button {
   
   main .form .field-wrapper {
     display: flex;
+    margin-bottom: 10px;
   }
 
   main .form label {

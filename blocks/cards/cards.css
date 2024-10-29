@@ -9,8 +9,16 @@
 
 .cards > ul > li {
   border: 1px solid #dadada;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-color: #fff;
+  color: black;
 }
+
+.cards > ul > li:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+  transition: box-shadow .3s ease-in-out;
+}
+
 
 .cards .cards-card-body {
   margin: 16px;
@@ -24,4 +32,12 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  background-color: rgba(0,0,0,.35);
 }
+
+.cards > ul > li img:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+  transition: box-shadow .3s ease-in-out;
+}
+
+
